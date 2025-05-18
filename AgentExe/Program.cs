@@ -18,6 +18,9 @@ namespace AgentExe
             Mission mission1 = new Mission ("har","gaza",a);
             mission1.Brief ();
 
+            string increaptmsg = IntelTools.EncryptMessage("asdf");
+            IntelTools.LogTransmission(a.CodeName, increaptmsg);
+
         }
     }
 }
