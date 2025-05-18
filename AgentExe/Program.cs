@@ -13,6 +13,10 @@ namespace AgentExe
             ClassAgent a = new ClassAgent ("chili", 5);
             
             a.Report();
+
+            Mission mission1 = new Mission ("har","gaza",a);
+            mission1.Brief ();
+
         }
     }
 }
