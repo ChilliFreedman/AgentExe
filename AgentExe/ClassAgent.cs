@@ -10,7 +10,7 @@ namespace AgentExe
     internal class ClassAgent
     {
         public string CodeName;
-        public int ClearanceLevel;
+        private int ClearanceLevel;
         
         public ClassAgent(string codeName,int clearanceLevel)
         {
@@ -18,6 +18,19 @@ namespace AgentExe
             this.ClearanceLevel = clearanceLevel;
         }
 
+        public int GetClearanceLevel()
+        {
+            return ClearanceLevel;
+
+        }
+
+        public void SetClearanceLevel(int level)
+        {
+            if (level >= 1 && level <= 5)
+            {
+                ClearanceLevel = level;
+            }
+        }
         public void Report()
         {
             Console.WriteLine($"Agent {CodeName} reporting. Clearance Level:{ClearanceLevel}");

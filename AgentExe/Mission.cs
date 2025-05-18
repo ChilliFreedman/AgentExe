@@ -19,6 +19,9 @@ namespace AgentExe
             this.AssignedAgent = assignedAgent;
         }
 
+        
+        
+
         public void Brief()
         {
             Console.WriteLine($"Mission: {MissionName}, Target: {TargetLocation},Agent: {AssignedAgent.CodeName}");
