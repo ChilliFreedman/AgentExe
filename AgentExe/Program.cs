@@ -10,6 +10,9 @@ namespace AgentExe
     {
         static void Main(string[] args)
         {
+            ClassAgent a = new ClassAgent ("chili", 5);
+            
+            a.Report();
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\חילי פרידמן\source\repos\AgentExe\AgentExe\obj\Debug\AgentExe.csproj.AssemblyReference.cache
+C:\Users\חילי פרידמן\source\repos\AgentExe\AgentExe\obj\Debug\AgentExe.csproj.CoreCompileInputs.cache
+C:\Users\חילי פרידמן\source\repos\AgentExe\AgentExe\bin\Debug\AgentExe.exe.config
+C:\Users\חילי פרידמן\source\repos\AgentExe\AgentExe\bin\Debug\AgentExe.exe
+C:\Users\חילי פרידמן\source\repos\AgentExe\AgentExe\bin\Debug\AgentExe.pdb
+C:\Users\חילי פרידמן\source\repos\AgentExe\AgentExe\obj\Debug\AgentExe.exe
+C:\Users\חילי פרידמן\source\repos\AgentExe\AgentExe\obj\Debug\AgentExe.pdb
