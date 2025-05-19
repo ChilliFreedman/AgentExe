@@ -19,7 +19,7 @@ namespace AgentExe
 
         static public void LogTransmission(string agentName, string message)
         {
-            Console.WriteLine($"{agentName} sent encrypted message: {message}");
+            Console.WriteLine($"{agentName} sent encrypted message: {EncryptMessage(message)}");
         }
     }
 }
